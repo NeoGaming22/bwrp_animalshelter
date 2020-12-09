@@ -18,125 +18,165 @@ local CurrentZoneActive = 0
 local dogs = {
 	
 	{
-		['Text'] = "$100 - Chesbay Retriever",
+		['Text'] = "$700 - Chesbay Retriever",
 		['SubText'] = "",
 		['Desc'] = "Level Required : ~pa~0",
 		['Param'] = {
-			['Price'] = 100,
+			['Price'] = 700,
 			['Model'] = "A_C_DogChesBayRetriever_011",
 			['Level'] = 2
 		}
 	},
 	{
-		['Text'] = "$500 - Husky",
+		['Text'] = "$800 - Husky",
 		['SubText'] = "",
 		['Desc'] = "Level Required : ~pa~0",
 		['Param'] = {
-			['Price'] = 500,
+			['Price'] = 800,
 			['Model'] = "A_C_DogHusky_01",
 			['Level'] = 2
 		}
 	},
 	{
-		['Text'] = "$100 - Labrador Retriever",
+		['Text'] = "$950 - Labrador Retriever",
 		['SubText'] = "",
 		['Desc'] = "Level Required : ~pa~0",
 		['Param'] = {
-			['Price'] = 100,
+			['Price'] = 950,
 			['Model'] = "A_C_DogLab_01",
 			['Level'] = 2
 		}
 	},
 	{
-		['Text'] = "$100 - Rufus",
+		['Text'] = "$600 - Rufus",
 		['SubText'] = "",
 		['Desc'] = "Level Required : ~pa~0",
 		['Param'] = {
-			['Price'] = 100,
+			['Price'] = 600,
 			['Model'] = "A_C_DogRufus_01",
 			['Level'] = 2
 		}
 	},
 	{
-		['Text'] = "$150 - Coon Hound",
+		['Text'] = "$750 - Coon Hound",
 		['SubText'] = "",
 		['Desc'] = "Level Required : ~pa~0",
 		['Param'] = {
-			['Price'] = 150,
+			['Price'] = 750,
 			['Model'] = "A_C_DogBluetickCoonhound_01",
 			['Level'] = 2
 		}
 	},
 	{
-		['Text'] = "$200 - Border Collie",
+		['Text'] = "$800 - Border Collie",
 		['SubText'] = "",
 		['Desc'] = "Level Required : ~pa~0",
 		['Param'] = {
-			['Price'] = 200,
+			['Price'] = 800,
 			['Model'] = "A_C_DogCollie_01",
 			['Level'] = 2
 		}
 	},
 	{
-		['Text'] = "$100 - Ches Bay Retriever",
+		['Text'] = "$750 - Ches Bay Retriever",
 		['SubText'] = "",
 		['Desc'] = "Level Required : ~pa~0",
 		['Param'] = {
-			['Price'] = 15,
+			['Price'] = 750,
 			['Model'] = "A_C_DogChesBayRetriever_01",
 			['Level'] = 2
-		}
+		}  
 	},
 	{
-		['Text'] = "$200 - Foxhound",
+		['Text'] = "$800 - Foxhound",
 		['SubText'] = "",
 		['Desc'] = "Level Required : ~pa~0",
 		['Param'] = {
-			['Price'] = 100,
+			['Price'] = 800,
 			['Model'] = "A_C_DogAmericanFoxhound_01",
 			['Level'] = 2
 		}
-	},
+	}, 
 	{
-		['Text'] = "$100 - Cat",
+		['Text'] = "$850 - Catahoulacur",
 		['SubText'] = "",
 		['Desc'] = "Level Required : ~pa~0",
 		['Param'] = {
-			['Price'] = 15,
+			['Price'] = 850,
+			['Model'] = "a_c_dogcatahoulacur_01",
+			['Level'] = 2
+		} 
+	}, 
+	{
+		['Text'] = "$900 - Australian Sheperd",
+		['SubText'] = "",
+		['Desc'] = "Level Required : ~pa~0",
+		['Param'] = {
+			['Price'] = 900,
+			['Model'] = "a_c_dogaustraliansheperd_01",
+			['Level'] = 2
+		}
+	},
+	-- {
+	-- 	['Text'] = "$200 - Pet Pig",
+	-- 	['SubText'] = "",
+	-- 	['Desc'] = "Level Required : ~pa~0",
+	-- 	['Param'] = {
+	-- 		['Price'] = 200,
+	-- 		['Model'] = "a_c_pig_01",
+	-- 		['Level'] = 2
+	-- 	}
+	-- },
+	{
+		['Text'] = "$400 - Cat",
+		['SubText'] = "",
+		['Desc'] = "Level Required : ~pa~0",
+		['Param'] = {
+			['Price'] = 400,
 			['Model'] = "A_C_Cat_01",
 			['Level'] = 2
-		}
+		} 
 	},
 	{
-		['Text'] = "$100 - Bat",
+		['Text'] = "$750 - Poodle",
 		['SubText'] = "",
 		['Desc'] = "Level Required : ~pa~0",
 		['Param'] = {
-			['Price'] = 100,
-			['Model'] = "A_C_Bat_01",
+			['Price'] = 750,
+			['Model'] = "a_c_dogpoodle_01",
 			['Level'] = 2
 		}
-	},
-	{
-		['Text'] = "$10000 - Putther",
-		['SubText'] = "",
-		['Desc'] = "Level Required : ~pa~0",
-		['Param'] = {
-			['Price'] = 10000,
-			['Model'] = "A_C_Bear_01",
-			['Level'] = 2
-		}
-	},
-	{
-		['Text'] = "$10000 - Child",
-		['SubText'] = "",
-		['Desc'] = "Level Required : ~pa~0",
-		['Param'] = {
-			['Price'] = 10000,
-			['Model'] = "CS_GERMANSON",
-			['Level'] = 2
-		}
-	},
+	}
+	-- {
+	-- 	['Text'] = "$100 - Parrot",
+	-- 	['SubText'] = "",
+	-- 	['Desc'] = "Level Required : ~pa~0",
+	-- 	['Param'] = {
+	-- 		['Price'] = 100,
+	-- 		['Model'] = "a_c_parrot_01",
+	-- 		['Level'] = 2
+	-- 	}
+	-- },
+	-- {
+	-- 	['Text'] = "$100 - Bat",
+	-- 	['SubText'] = "",
+	-- 	['Desc'] = "Level Required : ~pa~0",
+	-- 	['Param'] = {
+	-- 		['Price'] = 100,
+	-- 		['Model'] = "A_C_Bat_01",
+	-- 		['Level'] = 2
+	-- 	}
+	-- },
+	-- {
+	-- 	['Text'] = "$10000 - Circus Bear",
+	-- 	['SubText'] = "",
+	-- 	['Desc'] = "Level Required : ~pa~0",
+	-- 	['Param'] = {
+	-- 		['Price'] = 10000,
+	-- 		['Model'] = "A_C_Bear_01",
+	-- 		['Level'] = 2
+	-- 	} 
+	-- }
 }
 
 Citizen.CreateThread(function()
@@ -240,16 +280,16 @@ Citizen.CreateThread(function()
 
 		if IsZone then
 			DisplayHelp(Config.Shoptext, 0.50, 0.95, 0.6, 0.6, true, 255, 255, 255, 255, true, 10000)
-			if IsControlJustPressed(0, keys['E']) then
+			if IsControlJustPressed(0, keys['E']) and IsInputDisabled(0) then
 				WarMenu.OpenMenu('id_dog')
 				CurrentZoneActive = IdZone
 			end
 		end
 
-		if IsControlJustReleased(0, keys['G']) then
-			pressLeft = GetGameTimer()
-			pressTime = pressTime + 1
-		end
+		-- if IsControlJustReleased(0, keys['G'])  and IsInputDisabled(0) then
+		-- 	pressLeft = GetGameTimer()
+		-- 	pressTime = pressTime + 1
+		-- end
 
 		if pressLeft ~= nil and (pressLeft + 500) < GetGameTimer() and pressTime > 0 and pressTime < 1 then
 			pressTime = 0
@@ -284,6 +324,31 @@ AddEventHandler( 'bwrp:removedog', function (args)
 	ShowNotification( "you sold your pet" )
 
 end)
+
+RegisterNetEvent( 'bwrp:putaway' )
+AddEventHandler( 'bwrp:putaway', function (args)
+
+	DeleteEntity(currentPetPed)
+	ShowNotification( "You Put Pet Away" )
+
+end)
+
+RegisterCommand("putawaypet", function(source, args, rawCommand) --  COMMAND
+    local _source = source
+    local ped = PlayerPedId()
+	TriggerEvent('bwrp:putaway')
+               
+    
+end)
+
+RegisterCommand("callpet", function(source, args, rawCommand) --  COMMAND
+    local _source = source
+    local ped = PlayerPedId()
+	TriggerServerEvent('bwrp:loaddog')
+               
+    
+end)
+
 
 -- | Spawn dog | --
 
